@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.2.14 Keith Dunwoody
+
+- Add group for Vancouver section life members.
+
 ## 2.2.13 Francois Bessette
 
 - Add options to control delete of expired members from the database.
