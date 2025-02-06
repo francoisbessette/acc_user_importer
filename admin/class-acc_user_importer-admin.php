@@ -63,6 +63,7 @@ class acc_user_importer_Admin
         "1826" => ["section" => "VANCOUVER", "type" => "child"],
         "2326" => ["section" => "VANCOUVER", "type" => "student_club"],
         "2593" => ["section" => "VANCOUVER", "type" => "student_club"],
+        "2786" => ["section" => "VANCOUVER", "type" => "life_member"],
         "1784" => ["section" => "VANCOUVER ISLAND", "type" => "adult"],
         "1783" => ["section" => "VANCOUVER ISLAND", "type" => "youth"],
         "1787" => ["section" => "VANCOUVER ISLAND", "type" => "family1"],
@@ -658,6 +659,7 @@ class acc_user_importer_Admin
 
     // If a member has multiple memberships, which one do we prefer?
     private $membershipPreference = [
+        "life_member" => 6,
         "family1" => 5,
         "family2" => 4,
         "adult" => 3,
